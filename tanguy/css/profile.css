@@ -1,0 +1,77 @@
+body {
+    background-image: none;
+    background-color: lightgray;
+  }
+  
+  main {
+    margin: 10px;
+  }
+  
+  .panel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .annonces img {
+    max-width: 350px;
+    max-height: 340px;
+    border-radius: 25px;
+    margin: 0;
+  }
+  
+  .annonces a {
+    margin: 0;
+    height: fit-content;
+    text-decoration: none;
+    color: rgb(250, 213, 48);
+  }
+  
+  .annonces a:hover {
+    color: rgb(223, 10, 52);
+    
+  }
+  
+  .description {
+    margin: 15px;
+  }
+  
+  .annonces {
+    background-color: black;
+    color: rgb(250, 213, 48);
+    display: flex;
+    border-radius: 25px;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .title p {
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  .title a {
+    width: 290px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    background-color: rgb(128, 128, 128);
+    border-radius: 90px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .title a:hover {
+    background-color: black;
+    color: white;
+  }
+  .titre{
+    font-size: 19px;
+    font-weight: bold;
+  }

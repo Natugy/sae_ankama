@@ -1,0 +1,51 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+body {
+  background-image: none;
+  background-color: lightgray;
+}
+
+.presentation {
+  display: flex;
+  background-color: black;
+  color: rgb(250, 213, 48);
+  border-radius: 45px;
+}
+
+.presentation img {
+  height: 450px;
+  width: 450px;
+  border-radius: 45px;
+}
+
+.presentation p {
+  margin: 10px;
+  font-size: 20px;
+}
+
+.appbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.appbar a {
+  width: 290px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  border-color: black;
+  background-color: rgb(128, 128, 128);
+  border-radius: 90px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.appbar a:hover {
+  background-color: black;
+  color: white;
+}

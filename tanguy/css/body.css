@@ -1,0 +1,31 @@
+body {
+  background-image: url("../img/pexels-kelvin-valerio-1519192.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 95vh;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 90%;
+}
+
+footer {
+  height: 50px;
+  background-color: black;
+  font-size: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+}
+
+footer a {
+  color: #D94216;
+}
+
+footer a:visited {
+  color: #FBC02D;
+}

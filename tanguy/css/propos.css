@@ -1,0 +1,28 @@
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+body {
+  background-image: none;
+  background-color: lightgray;
+}
+
+.propos {
+  display: flex;
+  background-color: black;
+  color: rgb(250, 213, 48);
+  border-radius: 45px;
+}
+
+.propos img {
+  height: 500px;
+  width: 950px;
+  border-radius: 45px;
+}
+
+.propos p {
+  margin: 10px;
+  font-size: 20px;
+}

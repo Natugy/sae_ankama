@@ -1,0 +1,34 @@
+header {
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+}
+
+header nav a {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: grey;
+  text-decoration: none;
+}
+
+header nav img {
+  max-width: 50px;
+  max-height: 50px;
+  order: -1;
+  margin: 8px;
+}
+
+header nav a:hover {
+  color: white;
+  text-decoration: none;
+}
